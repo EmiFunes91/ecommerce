@@ -15,3 +15,29 @@ body {
     border-color: #FF6F61;
     color: #FF6F61;
 }
+
+.btn-productos {
+    background-color: #FF6F61;
+    color: #FFF;
+}
+
+.btn-productos:hover {
+    background-color: #FFF;
+    border-color: #FF6F61;
+    color: #FF6F61;
+}
+
+ul.list-unstyled a {
+    color: #FF6F61;
+}
+
+.btn-susbribete {
+    background-color: #FF6F61;
+    color: #FFF;
+}
+
+.btn-susbribete:hover {
+    background-color: #FFF;
+    border-color: #FF6F61;
+    color: #FF6F61;
+}
