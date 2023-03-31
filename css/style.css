@@ -1,5 +1,5 @@
 body {
-    background-image: url('../img/fondoSport.avif');
+    background-color: white;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -40,4 +40,117 @@ ul.list-unstyled a {
     background-color: #FFF;
     border-color: #FF6F61;
     color: #FF6F61;
+}
+
+.boton {
+    display: inline-block;
+    background-color: #FFFFFF;
+    color: #FF6F61;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #FF6F61;
+    color: #FFFFFF;
+}
+
+.categorias {
+    background-color: #F5F5F5;
+    padding: 50px;
+    text-align: center;
+}
+
+.categorias h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.categorias ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.categorias ul li {
+    margin-bottom: 20px;
+}
+
+.categorias ul li a {
+    color: #FF6F61;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.categorias ul li a:hover {
+    color: #000000;
+}
+
+.destacados {
+    padding: 50px;
+    text-align: center;
+}
+
+.destacados h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.producto {
+    background-color: #FFFFFF;
+    border: 1px solid #F5F5F5;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.producto img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.producto h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.producto p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.testimonios {
+    background-color: #FFFFFF;
+    padding: 50px;
+    text-align: center;
+}
+
+.testimonios h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.testimonio {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+.testimonio p:first-of-type {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.testimonio p:last-of-type {
+    font-size: 18px;
+    margin: 0;
 }
