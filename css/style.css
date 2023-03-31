@@ -111,6 +111,8 @@ ul.list-unstyled a {
     padding: 20px;
     margin-bottom: 30px;
     text-align: center;
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 20px;
 }
 
 .producto img {
@@ -126,6 +128,12 @@ ul.list-unstyled a {
 .producto p {
     font-size: 18px;
     margin-bottom: 20px;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .testimonios {
